@@ -1,0 +1,477 @@
+{
+  "version": 1,
+  "name": "kcl-backdrop",
+  "width": 320,
+  "height": 180,
+  "palette": {
+    "b": "#0b0d1c",
+    "c": "#14162a",
+    "d": "#1a1c2c",
+    "e": "#2b2f4d",
+    "f": "#59627a",
+    "g": "#a7adc4",
+    "w": "#f4f4f4",
+    "y": "#ffe14d",
+    "o": "#ff9d4d",
+    "r": "#e03c31",
+    "h": "#0e1020",
+    "p": "#2f8a52",
+    "q": "#26704a",
+    "s": "#23263b",
+    "t": "#323652",
+    "m": "#d9a02f"
+  },
+  "frames": [
+    {
+      "name": "scene",
+      "ops": [
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 180,
+          "color": "b"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 10,
+          "w": 320,
+          "h": 60,
+          "color": "c",
+          "density": [
+            0,
+            1
+          ],
+          "direction": "down"
+        },
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 70,
+          "w": 320,
+          "h": 42,
+          "color": "c"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 66,
+          "w": 320,
+          "h": 46,
+          "color": "e",
+          "density": [
+            0,
+            0.9
+          ],
+          "direction": "down"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 94,
+          "w": 320,
+          "h": 18,
+          "color": "o",
+          "density": [
+            0,
+            0.55
+          ],
+          "direction": "down",
+          "pattern": "bayer4"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 70,
+          "color": "w",
+          "density": [
+            0.02,
+            0
+          ],
+          "direction": "down",
+          "pattern": "noise",
+          "seed": 7
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 0,
+          "w": 320,
+          "h": 50,
+          "color": "g",
+          "density": [
+            0.02,
+            0
+          ],
+          "direction": "down",
+          "pattern": "noise",
+          "seed": 21
+        },
+        {
+          "op": "dither",
+          "x": 208,
+          "y": -18,
+          "w": 96,
+          "h": 96,
+          "color": "y",
+          "density": [
+            0.14,
+            0
+          ],
+          "direction": "radial",
+          "pattern": "bayer4"
+        },
+        {
+          "op": "dither",
+          "x": -18,
+          "y": 36,
+          "w": 106,
+          "h": 80,
+          "color": "y",
+          "density": [
+            0.5,
+            0
+          ],
+          "direction": "radial",
+          "pattern": "bayer4"
+        },
+        {
+          "op": "dither",
+          "x": 230,
+          "y": 44,
+          "w": 106,
+          "h": 76,
+          "color": "y",
+          "density": [
+            0.45,
+            0
+          ],
+          "direction": "radial",
+          "pattern": "bayer4"
+        },
+        {
+          "op": "ellipse",
+          "x": 236,
+          "y": 10,
+          "w": 28,
+          "h": 28,
+          "color": "y"
+        },
+        {
+          "op": "ellipse",
+          "x": 240,
+          "y": 16,
+          "w": 7,
+          "h": 7,
+          "color": "m"
+        },
+        {
+          "op": "ellipse",
+          "x": -40,
+          "y": 98,
+          "w": 150,
+          "h": 40,
+          "color": "h"
+        },
+        {
+          "op": "ellipse",
+          "x": 90,
+          "y": 104,
+          "w": 170,
+          "h": 34,
+          "color": "h"
+        },
+        {
+          "op": "ellipse",
+          "x": 220,
+          "y": 96,
+          "w": 150,
+          "h": 44,
+          "color": "h"
+        },
+        {
+          "op": "rect",
+          "x": 112,
+          "y": 100,
+          "w": 96,
+          "h": 14,
+          "color": "h"
+        },
+        {
+          "op": "dither",
+          "x": 112,
+          "y": 103,
+          "w": 96,
+          "h": 6,
+          "color": "y",
+          "density": 0.28,
+          "pattern": "bayer4",
+          "over": "h"
+        },
+        {
+          "op": "rect",
+          "x": 34,
+          "y": 40,
+          "w": 3,
+          "h": 74,
+          "color": "e"
+        },
+        {
+          "op": "rect",
+          "x": 24,
+          "y": 32,
+          "w": 23,
+          "h": 9,
+          "color": "f"
+        },
+        {
+          "op": "rect",
+          "x": 26,
+          "y": 34,
+          "w": 19,
+          "h": 5,
+          "color": "y"
+        },
+        {
+          "op": "rect",
+          "x": 282,
+          "y": 48,
+          "w": 3,
+          "h": 66,
+          "color": "e"
+        },
+        {
+          "op": "rect",
+          "x": 272,
+          "y": 40,
+          "w": 23,
+          "h": 9,
+          "color": "f"
+        },
+        {
+          "op": "rect",
+          "x": 274,
+          "y": 42,
+          "w": 19,
+          "h": 5,
+          "color": "y"
+        },
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 112,
+          "w": 320,
+          "h": 8,
+          "color": "q"
+        },
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 120,
+          "w": 320,
+          "h": 10,
+          "color": "p"
+        },
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 130,
+          "w": 320,
+          "h": 12,
+          "color": "q"
+        },
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 142,
+          "w": 320,
+          "h": 8,
+          "color": "p"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 112,
+          "w": 320,
+          "h": 38,
+          "color": "b",
+          "density": [
+            0.5,
+            0
+          ],
+          "direction": "down",
+          "pattern": "bayer4",
+          "over": "p"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 112,
+          "w": 320,
+          "h": 38,
+          "color": "b",
+          "density": [
+            0.5,
+            0
+          ],
+          "direction": "down",
+          "pattern": "bayer4",
+          "over": "q"
+        },
+        {
+          "op": "rect",
+          "x": 136,
+          "y": 112,
+          "w": 48,
+          "h": 16,
+          "color": "w",
+          "filled": false
+        },
+        {
+          "op": "rect",
+          "x": 150,
+          "y": 112,
+          "w": 20,
+          "h": 7,
+          "color": "w",
+          "filled": false
+        },
+        {
+          "op": "rect",
+          "x": 146,
+          "y": 105,
+          "w": 28,
+          "h": 8,
+          "color": "w",
+          "filled": false
+        },
+        {
+          "op": "line",
+          "x": 20,
+          "y": 122,
+          "x2": 300,
+          "y2": 122,
+          "color": "w"
+        },
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 150,
+          "w": 320,
+          "h": 30,
+          "color": "s"
+        },
+        {
+          "op": "rect",
+          "x": 0,
+          "y": 150,
+          "w": 320,
+          "h": 2,
+          "color": "f"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 150,
+          "w": 320,
+          "h": 30,
+          "color": "t",
+          "density": [
+            0,
+            0.5
+          ],
+          "direction": "down",
+          "pattern": "noise",
+          "seed": 3
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 164,
+          "w": 320,
+          "h": 2,
+          "color": "m",
+          "density": 0.5,
+          "pattern": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "op": "rect",
+          "x": 196,
+          "y": 153,
+          "w": 7,
+          "h": 25,
+          "color": "w"
+        },
+        {
+          "op": "rect",
+          "x": 209,
+          "y": 153,
+          "w": 7,
+          "h": 25,
+          "color": "w"
+        },
+        {
+          "op": "rect",
+          "x": 222,
+          "y": 153,
+          "w": 7,
+          "h": 25,
+          "color": "w"
+        },
+        {
+          "op": "rect",
+          "x": 235,
+          "y": 153,
+          "w": 7,
+          "h": 25,
+          "color": "w"
+        },
+        {
+          "op": "rect",
+          "x": 248,
+          "y": 153,
+          "w": 7,
+          "h": 25,
+          "color": "w"
+        },
+        {
+          "op": "dither",
+          "x": 0,
+          "y": 168,
+          "w": 320,
+          "h": 12,
+          "color": "b",
+          "density": [
+            0,
+            1
+          ],
+          "direction": "down",
+          "pattern": "bayer4"
+        }
+      ]
+    }
+  ]
+}
